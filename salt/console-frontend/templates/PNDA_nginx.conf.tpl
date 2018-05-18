@@ -1,5 +1,5 @@
 upstream websocket {
-	server localhost:3123
+	server localhost:3123;
 }
 
 server {
