@@ -17,7 +17,7 @@ server {
 		try_files $uri $uri/ =404;
 		# Uncomment to enable naxsi on this location
 		# include /etc/nginx/naxsi.rules
-		proxy_pass http://127.0.0.1:3123
+		proxy_pass http://127.0.0.1:3123;
 	}
 
 	location /socket.io/ {
